@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<main>
+  <version major="1" minor="0"/>
+  <controller kind="midi">
+    <id ID="1371865854"/>
+    <properties Model="DJControl Starlight" Manufacturer="Hercules DJ" Version="1.0"
+                 Publisher="Hercules Dj Team" PCDevice="DJControl Starlight" MacDevice="DJControl Starlight" HiRes="on"/>
+    <icon Data="4896.IBkSG0fBZn....PCIgDQRA....D....PHX....fpoEm2....DLmPIQEBHf.B7g.YHB..LrWRDEDU3wY6X2GbUUdm.G+6yy4buI2axM4dyKDRL7RhQPnnUInDAETzVcsXqTbQrXkUnVcl1tac6zYWaG65zVY5aq511sstJN5VsEb0B1fUsn.p.9FHuIIR.R.RBIj2u2j6amyyK6eboclcl3L6eu64yL2+4Lm4bOmeOO+98644ABDHPf.ABDHPf.ABDHPf.ABDHPf+eCwjcw0rjq6EFr3hWoqqDgPPdklHgCgwnQHDfEbbcvZMHERr.gbbQ3HwnMXsBP3..NtfqThRoPJkf.5sqiyM9EVEu412FUTUs70+1+S7JuzVwQJ43czABgErVjRIFiEKVzZCBAXLVD3fx2GDF.PozXE1BePVKV.iVCBA9d4Aq.CVDRAJkBiwhqiK6bW6THmr.voDxUV3lMnzF9t+reA+newulgkUfT5.BmBuHBGrBANNt7ObWKmbYxfPHXg+y+.5wepbpdyPO8UMZil0d22MOzO7gQJjLyllK66c1EUWc0Hcj7n+3eDa3g+Ab7NNNVrfETFM999XrFFbng32u4MgwXYryI4DmIIS61taxT+RPasjW4QdeevBVg.qEzZCJkBDRdvG7A3n8klsssmmT0d43HknLZZokVzS5Lfa7ltYqQqYe6cGrvq4FvZM333hRoXw23sva05yiwIBtttL2KdVzaucS2c0E0bA0iiiDuTw43+xmh3.S8dWOlx5mJSTMu1N1NK6JtD7CUVgYRlBSTrFCCkTSUwCWXD02Gq0BBAC1cWLgulFZnQ146miKogZn7s7zTrGr+2eWbIO8ihumOfEq0vBVvB4QerGgErflosSbFZdtSmz4sDx0EswfVowXr.VLFqwEfpKNhs9KdtjHQLpq9ow4N2fL1XIYrrJFazQor3kiuuOiNVJ1zu4WRiy5hNenxvC889NbietOOUMkZvZMXLRnn94AZ68He1z7xwSxYOc2bvCbDFajgIQUUxYGJSgzlPgHjSQ3YxyruvoR+8O.UVUBFcngwXAo0vytkVYQK7JomdGDEwHV4Ew6cqafvkWBySuS7jdHDR7884HG4fjIaFZokEBVAya1Mxh+zSims02kpqpZP.Fsg89N6kVZoE788QBPckYIuAFbfAXf96EqwPjnQnrJqkHQih.Im9LcS73kSiypIrXPJEXsV9xqccri2X6jIeNrVAFig4coWAWXMBtrKJNYylh4boymTimjxKqB53TCfzwgLIGkwGOIacasR6s2NQhDk0st+Nd4V2FiOQRLZM9FMe866dohJplToFlQGnMN2fUP7geMJpyshYgeFr1B44G5feHM1zrHjawXzVLFMnMr82uKptxp3fG4vHvRxg6C.pp7hwwwYxKBNm5avd3NaGrvLqqZJsHG18QNNq4KsVjB3odxeEZoCq9VuERLk5QHj7lu8dn9K5RowZhAXvXrEJPJ.eOOFZnAQoTTcUUQznkxI6rCZpo4voO0IXFSqVZro4RWc0EISkjgGcLtsU7EXe6+.nT9L5nixHiLBUTQEDqrDHEgJ7hKrn8yBXX+GtKt740.BoDiVwS+LOAHf0rl0gQq4kdgMwpW653PG5vTScyfA5uep+BlpYRC.KcoWq8bmaPvZQagbi2CyswOE5HwHanJnD8HHDRdpm5wY8q+dQJbXW69MIZjRXAye9bhtNKISlhXkUN0UkCmtuj3JETZowHQ7JHQ4kfuRQyKdI7u9C+W3JuhEx7WPyzww5f88AuG4TFlyrmEwiGmq+1VKOz25af03.57zRKMyo6pK5+bCQcSa5LsZql89AeDQC6wkc4MiVq4+7Y1HqcsqGsVStRlJgmnORmKOm73Gk3IlBRnP2sToMSZW.s1mnQJlRKMJQiDhQFWw8bmeFLFKE6MDaYqaEsVifBskLVKZOe7xmCq0xo6pchUr.0D8SU0zHpbYXjAFfd6tST57EZG46SrXQ4q70tebCGBoPfmuOoylmEsvlKTgQq4i+v8vKtsWg+3q8mXCa7OfiaHDHnolZjRJJLHEjnhRHTQQwZEHDBjBAZiAa1wHZ19Pq0jbzwY7zZz99LxHCyniNLwqoRlz.f0JQHEru8uOjRGRT4T3d9N+aE5iCrhU7E4jGqct608UwZM36qvWYX7zQPJb4xermEkaIDJZkz2w5iDUTI0NsYRM0NctokeuXsvF23Svas8syo53v73+lGGgTRqaaqrrqaoTbQQ4rceFr.s1594aceqi+9uxZ4m+f2KjZbDQhSNOAgKJFVqjwSlkzI6GqUiVq4NVyZ42+a+OXvT4wy2fw.e2G+IvZ0TRIkPpTiSYkEGgPN4A.W2PbxN6Bg.NaO8vEeQyFs0gs8xaBiET9JZZNyCeeCZsl26C+Hrtyja75ubTJCm8m98AUdzZEgTRxlMO4ykAgzgCr+twZM7H+reBG9Hsydem2mGdCaf1auclHcV9vCbPdq89tTScW.tNtbgyaEjN83jIaFLJUgYZ4Rg0jmwRlDrRlyE2.Yz0yGbfOFsVi0X3uc0qiJppJrVKGuyt4d9rKkkt3qlq6FtoBEAmRcDxwcxC.FqgKYdyikrjkwbl6mh74xRNOn730wwa6.TZTGFYvAYas97r6c+NL8JcPnOEJsBoTfT5hTJP33f0DFDfiiDovRNiDsVSaGqSFZ3dIUxw4XG6iwZsr5Uc6jMWZRlZDRkJEd9Z5r1qGs1P9bYADn0fuSBx6qIueVLFME45P4QmfqcwKfP1rb+O3O.i0fwZXWu4tvO8PXARMdJNxA2OWwBuBjnH4nCg6jlBXJzFw22iPgKBDvhtxKi8tmcS+CNFVaXRac4Nuy0iueNLkTMW2RmMRoKZikUdzCP57vqNDD6ysH9x29Cv34hPZSUrk+q+c9zM4gRo3BmYSjN8DnTJxkKGFik5lZ8DqzwojRJAiUiy67Xbyq3wXhw6Fq+Yo828MXlu36yQR.QcAm67yhw5xbm6b3c26tY3jI4hdgMSkIp.qMGSohJwWJn4ELeDVACORRpttoyfm3Hjn5Zl71fa8M1i80O943v+teNV.GIXsvy7q2.qdc+inU4Q4oHquhxJKN01vrX7ANCttEiiij8rm2FPBXnkVtJB6LUx3GEBWL63m7i4F9lKGqQS1b4IWtLDKVL14N2IKaY2.qbkqfm64dNbbbHjiC65ZdXVezgHVwgnlvEwN9i+TV7UuHFn+9omd6kTol.qsPpXOc2MUUc0jL4HHkNL3viQ80NUZdt0SamdDLFCVi37KXSyhW7UM4sAupEc0VATXSIHHTnvXsFDBGzZ+B6G.9qKFxMTHzJERoCBofSbxSimmGRojFl4zoyyL.X8vUHn+i0FKY4KuvBUvxDiOAkFKFu9q+mYwK9p4Vu0agW4O8mwRgp4ta5E3PM2BEExCiFZrgoSWm5LXTJbbcnwFlAVsADRTZ+yuAJy+ie+kqIDb98InQJcv22yLoo.E5+a4AJqX93jCyGMXdNQEInu9G.U1LXbb4IWZSbW6scDQbPMtG0FYJTUcUPwEEAiwmvgbwy2CgzfTBRbP6qHrSgcQ9Wh7ZsBs1mLoGCkxGovEkQgvBZD7vgBypbEHIDRGw4C7RjtNHDEF.TZEVilsb6Kmd64rbNhxCtweEeo6XUzTDn2Q73INZG7L6YmToPxAF7b78V9pPozSdQPswfT.249ZiCEuV10DYPJ.AZPBQBInRQG33YHTVAgiGluc6uDgbBiuuOUUykPM0Oel4EtHDVK828YnmdRSuCTLdYL346g1T3kNZIkfVa3q909lXLF19qucbjRrTnmdaBn69BS28lgy1SOXsPkkGmRKIFQhDAOOOvBu8Z9hLbYSvLt14y59c+V1v0TKOxVdMdn2pM99u5NvHLrrFZjm5I2HK+BZBOeeDhOgyCnkVVj0QJ4EdwMyl2zlY02wp31V4p4E+CalLiL.kV0T4yey+Mz5q7pL7HIoqS0IKpkqja4VtMLFCf.ioPGADEFoDVAHcvpzfSgEQo0Fjttn77nu9NKUVYUDIRwHDNXrENS.rRDRGDB.z+07cGmBcSrVKVigwFpOB4JHSZOzFK0NsYvGcz1.Jb9Dy9hmMcdxSfRan73kShDIvKmZxqA.v239tK6wNYu3qJ7mZAvBYxLAUTrfYMqlXmG3jrzqdQbzCe..AZkBekhrdYu+C8gG4w9jd1+uj.PPy3LiRmgiWGmVp5CoW4k6FKlUFM5TkwJMxfEUTQ333hTH.LXPxnilDsVSYQjXCULgCUDHDm+AZvhj3kVDs9J63S76OPf.ABDHPf.ABDHPf.ABDHPf.A9+f9uQdX4kvk.Zux.....PRE4DQtJDXBB...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................XC..XiQMQE.vxf0x+Z....n9DB2uF....fkB.P.++++.7++++Z..............D..........m..........B............5i8qA...o59CopI...vP....pCC..nB...fmw........rdAG.v+.....jg..7O.....eH..+C.....MB.v+.....fl..7O.....uI..+C....PbB.v+.....jm..7O.....DJ..+C...vRkB........fl..D..........m..........B............5i8qA...o59CopI...............f+293qWA.f......................BaoQ+qA...46esOBfB..HXdnn7uF....lGJJ+qA...v6ghx+Z...vH..vHq0DU..qcaP3qA....TIKJ9Z....vvyzfuF....4.TS+qA..."/>
+    <mappings>
+      <input-mappings>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x7" channel="0x2" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x1].PlayPause"/>
+          </controls>
+          <preset name="Toggler Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x6" channel="0x2" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x1].Cue"/>
+          </controls>
+          <preset name="Holder Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x5" channel="0x2" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x1].SyncWithMaster"/>
+          </controls>
+          <preset name="Toggler Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x7" channel="0x3" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x2].PlayPause"/>
+          </controls>
+          <preset name="Toggler Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x6" channel="0x3" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x2].Cue"/>
+          </controls>
+          <preset name="Holder Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x5" channel="0x3" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x2].SyncWithMaster"/>
+          </controls>
+          <preset name="Toggler Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="CC" parameter="0x28" channel="0x3" value="77"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x2].PitchValue"/>
+          </controls>
+          <preset name="Direct Fader/Knob">
+            <parameters>
+              <parameter object="action-0" key="action" value="SetNormalTakeOver"/>
+              <parameter object="dispatch" key="centerCCandPWvalueRange" value="64 64"/>
+              <parameter object="dispatch" key="useCenteredCCandPW" value="off"/>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="CC" parameter="0x8" channel="0x2" value="68"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x1].PitchValue"/>
+          </controls>
+          <preset name="Direct Fader/Knob">
+            <parameters>
+              <parameter object="action-0" key="action" value="SetNormalTakeOver"/>
+              <parameter object="dispatch" key="centerCCandPWvalueRange" value="64 64"/>
+              <parameter object="dispatch" key="useCenteredCCandPW" value="off"/>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x0" channel="0x7" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x1].Locator1Control"/>
+          </controls>
+          <preset name="Holder Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x1" channel="0x7" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x1].Locator2Control"/>
+          </controls>
+          <preset name="Holder Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x2" channel="0x7" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x1].Locator3Control"/>
+          </controls>
+          <preset name="Holder Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x3" channel="0x7" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x1].Locator4Control"/>
+          </controls>
+          <preset name="Holder Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x0" channel="0x8" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x2].Locator1Control"/>
+          </controls>
+          <preset name="Holder Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x1" channel="0x8" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x2].Locator2Control"/>
+          </controls>
+          <preset name="Holder Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x2" channel="0x8" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x2].Locator3Control"/>
+          </controls>
+          <preset name="Holder Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x3" channel="0x8" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x2].Locator4Control"/>
+          </controls>
+          <preset name="Holder Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x12" channel="0x7" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x1].LoopIn"/>
+          </controls>
+          <preset name="Trigger Button">
+            <parameters>
+              <parameter object="metronom" key="Repeat Acceleration" value="0.1"/>
+              <parameter object="metronom" key="Repeat Time" value="0"/>
+              <parameter object="metronom" key="Start Time" value="500"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x13" channel="0x7" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x1].LoopOut"/>
+          </controls>
+          <preset name="Trigger Button">
+            <parameters>
+              <parameter object="metronom" key="Repeat Acceleration" value="0.1"/>
+              <parameter object="metronom" key="Repeat Time" value="0"/>
+              <parameter object="metronom" key="Start Time" value="500"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x10" channel="0x7" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x1].AutoLoopOnOff"/>
+          </controls>
+          <preset name="Toggler Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x11" channel="0x7" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x1].LoopOnOff"/>
+          </controls>
+          <preset name="Toggler Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x10" channel="0x8" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x2].AutoLoopOnOff"/>
+          </controls>
+          <preset name="Toggler Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x11" channel="0x8" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x2].LoopOnOff"/>
+          </controls>
+          <preset name="Toggler Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x12" channel="0x8" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x2].LoopIn"/>
+          </controls>
+          <preset name="Trigger Button">
+            <parameters>
+              <parameter object="metronom" key="Repeat Acceleration" value="0.1"/>
+              <parameter object="metronom" key="Repeat Time" value="0"/>
+              <parameter object="metronom" key="Start Time" value="500"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x13" channel="0x8" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x2].LoopOut"/>
+          </controls>
+          <preset name="Trigger Button">
+            <parameters>
+              <parameter object="metronom" key="Repeat Acceleration" value="0.1"/>
+              <parameter object="metronom" key="Repeat Time" value="0"/>
+              <parameter object="metronom" key="Start Time" value="500"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="CC" parameter="0x2" channel="0x2" value="77"/>
+          </events>
+          <controls>
+            <control alias="fam(Mixer).BassGainA"/>
+          </controls>
+          <preset name="Direct Fader/Knob">
+            <parameters>
+              <parameter object="action-0" key="action" value="SetNormalTakeOver"/>
+              <parameter object="dispatch" key="centerCCandPWvalueRange" value="64 64"/>
+              <parameter object="dispatch" key="useCenteredCCandPW" value="off"/>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="CC" parameter="0x2" channel="0x3" value="105"/>
+          </events>
+          <controls>
+            <control alias="fam(Mixer).BassGainB"/>
+          </controls>
+          <preset name="Direct Fader/Knob">
+            <parameters>
+              <parameter object="action-0" key="action" value="SetNormalTakeOver"/>
+              <parameter object="dispatch" key="centerCCandPWvalueRange" value="64 64"/>
+              <parameter object="dispatch" key="useCenteredCCandPW" value="off"/>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="CC" parameter="0x0" channel="0x2" value="58"/>
+          </events>
+          <controls>
+            <control alias="fam(Mixer).VolumeA"/>
+          </controls>
+          <preset name="Direct Fader/Knob">
+            <parameters>
+              <parameter object="action-0" key="action" value="SetNormalTakeOver"/>
+              <parameter object="dispatch" key="centerCCandPWvalueRange" value="64 64"/>
+              <parameter object="dispatch" key="useCenteredCCandPW" value="off"/>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="CC" parameter="0x0" channel="0x3" value="60"/>
+          </events>
+          <controls>
+            <control alias="fam(Mixer).VolumeB"/>
+          </controls>
+          <preset name="Direct Fader/Knob">
+            <parameters>
+              <parameter object="action-0" key="action" value="SetNormalTakeOver"/>
+              <parameter object="dispatch" key="centerCCandPWvalueRange" value="64 64"/>
+              <parameter object="dispatch" key="useCenteredCCandPW" value="off"/>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="CC" parameter="0x3" channel="0x1" value="22"/>
+          </events>
+          <controls>
+            <control alias="fam(Mixer).MasterVolume"/>
+          </controls>
+          <preset name="Direct Fader/Knob">
+            <parameters>
+              <parameter object="action-0" key="action" value="SetNormalTakeOver"/>
+              <parameter object="dispatch" key="centerCCandPWvalueRange" value="64 64"/>
+              <parameter object="dispatch" key="useCenteredCCandPW" value="off"/>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="CC" parameter="0x4" channel="0x1" value="123"/>
+          </events>
+          <controls>
+            <control alias="fam(Mixer).MonitorVolume"/>
+          </controls>
+          <preset name="Direct Fader/Knob">
+            <parameters>
+              <parameter object="action-0" key="action" value="SetNormalTakeOver"/>
+              <parameter object="dispatch" key="centerCCandPWvalueRange" value="64 64"/>
+              <parameter object="dispatch" key="useCenteredCCandPW" value="off"/>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="CC" parameter="0x1" channel="0x2" value="68"/>
+          </events>
+          <controls>
+            <control alias="fam(Mixer).FilterA"/>
+          </controls>
+          <preset name="Direct Fader/Knob">
+            <parameters>
+              <parameter object="action-0" key="action" value="SetNormalTakeOver"/>
+              <parameter object="dispatch" key="centerCCandPWvalueRange" value="64 64"/>
+              <parameter object="dispatch" key="useCenteredCCandPW" value="off"/>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="CC" parameter="0x1" channel="0x3" value="3"/>
+          </events>
+          <controls>
+            <control alias="fam(Mixer).FilterB"/>
+          </controls>
+          <preset name="Direct Fader/Knob">
+            <parameters>
+              <parameter object="action-0" key="action" value="SetNormalTakeOver"/>
+              <parameter object="dispatch" key="centerCCandPWvalueRange" value="64 64"/>
+              <parameter object="dispatch" key="useCenteredCCandPW" value="off"/>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x30" channel="0x7" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Sampler)[0x1].Pad1Control"/>
+          </controls>
+          <preset name="Holder Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x31" channel="0x7" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Sampler)[0x1].Pad2Control"/>
+          </controls>
+          <preset name="Holder Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x32" channel="0x7" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Sampler)[0x1].Pad3Control"/>
+          </controls>
+          <preset name="Holder Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x33" channel="0x7" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Sampler)[0x1].Pad4Control"/>
+          </controls>
+          <preset name="Holder Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x30" channel="0x8" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Sampler)[0x2].Pad1Control"/>
+          </controls>
+          <preset name="Holder Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x31" channel="0x8" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Sampler)[0x2].Pad2Control"/>
+          </controls>
+          <preset name="Holder Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x32" channel="0x8" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Sampler)[0x2].Pad3Control"/>
+          </controls>
+          <preset name="Holder Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x33" channel="0x8" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Sampler)[0x2].Pad4Control"/>
+          </controls>
+          <preset name="Holder Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x20" channel="0x7" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Fx)[0x1].OnOff"/>
+          </controls>
+          <preset name="Toggler Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x21" channel="0x7" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Fx)[0x5].OnOff"/>
+          </controls>
+          <preset name="Toggler Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x22" channel="0x7" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Fx)[0x9].OnOff"/>
+          </controls>
+          <preset name="Toggler Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x20" channel="0x8" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Fx)[0xa].OnOff"/>
+          </controls>
+          <preset name="Toggler Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x21" channel="0x8" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Fx)[0x6].OnOff"/>
+          </controls>
+          <preset name="Toggler Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x22" channel="0x8" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Fx)[0x2].OnOff"/>
+          </controls>
+          <preset name="Toggler Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x3" channel="0x1" value="0"/>
+          </events>
+          <controls>
+            <control alias="fam(Mixer).CueMix"/>
+          </controls>
+          <preset name="Direct Normal Button">
+            <parameters>
+              <parameter object="action-0" key="normal" value="0.01"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0xc" channel="0x2" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Mixer).CueMonitorA"/>
+          </controls>
+          <preset name="Toggler Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0xc" channel="0x3" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Mixer).CueMonitorB"/>
+          </controls>
+          <preset name="Toggler Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x3" channel="0x3" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x1].VinylMode"/>
+          </controls>
+          <preset name="Toggler Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x3" channel="0x3" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x2].VinylMode"/>
+          </controls>
+          <preset name="Toggler Button">
+            <parameters>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x8" channel="0x3" value="127"/>
+            <midi type="CC" parameter="0xa" channel="0x3" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x2].ScratchJog"/>
+          </controls>
+          <preset name="Touch">
+            <parameters>
+              <parameter object="jog" key="Backward Tick Increment Range" value="-1 -127"/>
+              <parameter object="jog" key="Backward Value Range" value="16128 16383"/>
+              <parameter object="jog" key="Built-in Period" value="0"/>
+              <parameter object="jog" key="Forward Tick Increment Range" value="1 127"/>
+              <parameter object="jog" key="Forward Value Range" value="0 255"/>
+              <parameter object="jog" key="Has Null Value" value="off"/>
+              <parameter object="jog" key="Move till Stop" value="off"/>
+              <parameter object="jog" key="Ms Per Turn" value="1800"/>
+              <parameter object="jog" key="Pitch Bend when No Touch" value="off"/>
+              <parameter object="jog" key="Sensitivity" value="0.1"/>
+              <parameter object="jog" key="Ticks Per Turn" value="3000"/>
+              <parameter object="stop timer" key="Repeat Time" value="100"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x8" channel="0x2" value="127"/>
+            <midi type="CC" parameter="0xa" channel="0x2" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x1].ComboJog"/>
+          </controls>
+          <preset name="Touch">
+            <parameters>
+              <parameter object="jog" key="Backward Tick Increment Range" value="-1 -127"/>
+              <parameter object="jog" key="Backward Value Range" value="16128 16383"/>
+              <parameter object="jog" key="Built-in Period" value="0"/>
+              <parameter object="jog" key="Forward Tick Increment Range" value="1 127"/>
+              <parameter object="jog" key="Forward Value Range" value="0 255"/>
+              <parameter object="jog" key="Has Null Value" value="off"/>
+              <parameter object="jog" key="Move till Stop" value="off"/>
+              <parameter object="jog" key="Ms Per Turn" value="1800"/>
+              <parameter object="jog" key="Pitch Bend when No Touch" value="off"/>
+              <parameter object="jog" key="Sensitivity" value="0.1"/>
+              <parameter object="jog" key="Ticks Per Turn" value="3000"/>
+              <parameter object="stop timer" key="Repeat Time" value="100"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="CC" parameter="0x9" channel="0x2" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x1].PitchBend"/>
+          </controls>
+          <preset name="Pitch Wheel">
+            <parameters>
+              <parameter object="factor" key="factor" value="0.1"/>
+              <parameter object="map" key="negativeNormalRange" value="0 0.5"/>
+              <parameter object="map" key="positiveNormalRange" value="0.5 1"/>
+              <parameter object="timeout" key="Repeat Time" value="100"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="CC" parameter="0x9" channel="0x3" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x2].PitchBend"/>
+          </controls>
+          <preset name="Pitch Wheel">
+            <parameters>
+              <parameter object="factor" key="factor" value="0.1"/>
+              <parameter object="map" key="negativeNormalRange" value="0 0.5"/>
+              <parameter object="map" key="positiveNormalRange" value="0.5 1"/>
+              <parameter object="timeout" key="Repeat Time" value="100"/>
+            </parameters>
+          </preset>
+        </mapping>
+      </input-mappings>
+      <output-mappings>
+        <device-event name="Shutdown">
+          <midi type="Note" parameter="0x5" channel="0x2" value="0"/>
+          <midi type="Note" parameter="0x6" channel="0x2" value="0"/>
+          <midi type="Note" parameter="0x7" channel="0x2" value="0"/>
+          <midi type="Note" parameter="0xc" channel="0x2" value="0"/>
+          <midi type="Note" parameter="0x3" channel="0x3" value="0"/>
+          <midi type="Note" parameter="0x5" channel="0x3" value="0"/>
+          <midi type="Note" parameter="0x6" channel="0x3" value="0"/>
+          <midi type="Note" parameter="0x7" channel="0x3" value="0"/>
+          <midi type="Note" parameter="0xc" channel="0x3" value="0"/>
+          <midi type="Note" parameter="0x0" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x1" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x2" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x3" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x10" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x11" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x20" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x21" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x22" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x30" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x31" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x32" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x33" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x0" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x1" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x2" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x3" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x10" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x11" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x20" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x21" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x22" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x30" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x31" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x32" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x33" channel="0x8" value="0"/>
+          <midi type="CC" parameter="0x3" channel="0x1" value="0"/>
+          <midi type="CC" parameter="0x4" channel="0x1" value="0"/>
+          <midi type="CC" parameter="0x0" channel="0x2" value="0"/>
+          <midi type="CC" parameter="0x1" channel="0x2" value="0"/>
+          <midi type="CC" parameter="0x2" channel="0x2" value="0"/>
+          <midi type="CC" parameter="0x8" channel="0x2" value="0"/>
+          <midi type="CC" parameter="0x0" channel="0x3" value="0"/>
+          <midi type="CC" parameter="0x1" channel="0x3" value="0"/>
+          <midi type="CC" parameter="0x2" channel="0x3" value="0"/>
+          <midi type="CC" parameter="0x28" channel="0x3" value="0"/>
+        </device-event>
+        <device-event name="Startup">
+          <midi type="Note" parameter="0x5" channel="0x2" value="0"/>
+          <midi type="Note" parameter="0x6" channel="0x2" value="0"/>
+          <midi type="Note" parameter="0x7" channel="0x2" value="0"/>
+          <midi type="Note" parameter="0xc" channel="0x2" value="0"/>
+          <midi type="Note" parameter="0x3" channel="0x3" value="0"/>
+          <midi type="Note" parameter="0x5" channel="0x3" value="0"/>
+          <midi type="Note" parameter="0x6" channel="0x3" value="0"/>
+          <midi type="Note" parameter="0x7" channel="0x3" value="0"/>
+          <midi type="Note" parameter="0xc" channel="0x3" value="0"/>
+          <midi type="Note" parameter="0x0" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x1" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x2" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x3" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x10" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x11" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x20" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x21" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x22" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x30" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x31" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x32" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x33" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x0" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x1" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x2" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x3" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x10" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x11" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x20" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x21" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x22" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x30" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x31" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x32" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x33" channel="0x8" value="0"/>
+          <midi type="CC" parameter="0x3" channel="0x1" value="0"/>
+          <midi type="CC" parameter="0x4" channel="0x1" value="0"/>
+          <midi type="CC" parameter="0x0" channel="0x2" value="0"/>
+          <midi type="CC" parameter="0x1" channel="0x2" value="0"/>
+          <midi type="CC" parameter="0x2" channel="0x2" value="0"/>
+          <midi type="CC" parameter="0x8" channel="0x2" value="0"/>
+          <midi type="CC" parameter="0x0" channel="0x3" value="0"/>
+          <midi type="CC" parameter="0x1" channel="0x3" value="0"/>
+          <midi type="CC" parameter="0x2" channel="0x3" value="0"/>
+          <midi type="CC" parameter="0x28" channel="0x3" value="0"/>
+        </device-event>
+        <mapping>
+          <control alias="fam(Player)[0x1].PlayPause" value="false"/>
+          <midi type="Note" parameter="0x7" channel="0x2" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x1].PlayPause" value="true"/>
+          <midi type="Note" parameter="0x7" channel="0x2" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x1].Cue" value="false"/>
+          <midi type="Note" parameter="0x6" channel="0x2" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x1].Cue" value="true"/>
+          <midi type="Note" parameter="0x6" channel="0x2" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x1].LoopOnOff" value="false"/>
+          <midi type="Note" parameter="0x11" channel="0x7" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x1].LoopOnOff" value="true"/>
+          <midi type="Note" parameter="0x11" channel="0x7" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x1].AutoLoopOnOff" value="false"/>
+          <midi type="Note" parameter="0x10" channel="0x7" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x1].AutoLoopOnOff" value="true"/>
+          <midi type="Note" parameter="0x10" channel="0x7" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x1].SyncWithMaster" value="false"/>
+          <midi type="Note" parameter="0x5" channel="0x2" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x1].SyncWithMaster" value="true"/>
+          <midi type="Note" parameter="0x5" channel="0x2" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x1].PitchValue" value="0%"/>
+          <midi type="CC" parameter="0x8" channel="0x2" value="68"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x1].Locator1Control" value="false"/>
+          <midi type="Note" parameter="0x0" channel="0x7" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x1].Locator1Control" value="true"/>
+          <midi type="Note" parameter="0x0" channel="0x7" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x1].Locator2Control" value="false"/>
+          <midi type="Note" parameter="0x1" channel="0x7" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x1].Locator2Control" value="true"/>
+          <midi type="Note" parameter="0x1" channel="0x7" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x1].Locator3Control" value="false"/>
+          <midi type="Note" parameter="0x2" channel="0x7" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x1].Locator3Control" value="true"/>
+          <midi type="Note" parameter="0x2" channel="0x7" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x1].Locator4Control" value="false"/>
+          <midi type="Note" parameter="0x3" channel="0x7" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x1].Locator4Control" value="true"/>
+          <midi type="Note" parameter="0x3" channel="0x7" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x1].VinylMode" value="false"/>
+          <midi type="Note" parameter="0x3" channel="0x3" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x1].VinylMode" value="true"/>
+          <midi type="Note" parameter="0x3" channel="0x3" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x2].PlayPause" value="false"/>
+          <midi type="Note" parameter="0x7" channel="0x3" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x2].PlayPause" value="true"/>
+          <midi type="Note" parameter="0x7" channel="0x3" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x2].Cue" value="false"/>
+          <midi type="Note" parameter="0x6" channel="0x3" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x2].Cue" value="true"/>
+          <midi type="Note" parameter="0x6" channel="0x3" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x2].LoopOnOff" value="false"/>
+          <midi type="Note" parameter="0x11" channel="0x8" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x2].LoopOnOff" value="true"/>
+          <midi type="Note" parameter="0x11" channel="0x8" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x2].AutoLoopOnOff" value="false"/>
+          <midi type="Note" parameter="0x10" channel="0x8" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x2].AutoLoopOnOff" value="true"/>
+          <midi type="Note" parameter="0x10" channel="0x8" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x2].SyncWithMaster" value="false"/>
+          <midi type="Note" parameter="0x5" channel="0x3" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x2].SyncWithMaster" value="true"/>
+          <midi type="Note" parameter="0x5" channel="0x3" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x2].PitchValue" value="0%"/>
+          <midi type="CC" parameter="0x28" channel="0x3" value="77"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x2].Locator1Control" value="false"/>
+          <midi type="Note" parameter="0x0" channel="0x8" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x2].Locator1Control" value="true"/>
+          <midi type="Note" parameter="0x0" channel="0x8" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x2].Locator2Control" value="false"/>
+          <midi type="Note" parameter="0x1" channel="0x8" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x2].Locator2Control" value="true"/>
+          <midi type="Note" parameter="0x1" channel="0x8" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x2].Locator3Control" value="false"/>
+          <midi type="Note" parameter="0x2" channel="0x8" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x2].Locator3Control" value="true"/>
+          <midi type="Note" parameter="0x2" channel="0x8" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x2].Locator4Control" value="false"/>
+          <midi type="Note" parameter="0x3" channel="0x8" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x2].Locator4Control" value="true"/>
+          <midi type="Note" parameter="0x3" channel="0x8" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x2].VinylMode" value="false"/>
+          <midi type="Note" parameter="0x3" channel="0x3" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[0x2].VinylMode" value="true"/>
+          <midi type="Note" parameter="0x3" channel="0x3" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[*].VinylMode" value="false"/>
+          <midi type="Note" parameter="0x3" channel="0x3" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[*].VinylMode" value="true"/>
+          <midi type="Note" parameter="0x3" channel="0x3" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Mixer).MasterVolume" value="0%"/>
+          <midi type="CC" parameter="0x3" channel="0x1" value="22"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Mixer).MonitorVolume" value="0%"/>
+          <midi type="CC" parameter="0x4" channel="0x1" value="123"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Mixer).VolumeA" value="0%"/>
+          <midi type="CC" parameter="0x0" channel="0x2" value="58"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Mixer).BassGainA" value="0%"/>
+          <midi type="CC" parameter="0x2" channel="0x2" value="77"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Mixer).FilterA" value="0%"/>
+          <midi type="CC" parameter="0x1" channel="0x2" value="68"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Mixer).CueMonitorA" value="false"/>
+          <midi type="Note" parameter="0xc" channel="0x2" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Mixer).CueMonitorA" value="true"/>
+          <midi type="Note" parameter="0xc" channel="0x2" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Mixer).VolumeB" value="0%"/>
+          <midi type="CC" parameter="0x0" channel="0x3" value="60"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Mixer).BassGainB" value="0%"/>
+          <midi type="CC" parameter="0x2" channel="0x3" value="105"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Mixer).FilterB" value="0%"/>
+          <midi type="CC" parameter="0x1" channel="0x3" value="3"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Mixer).CueMonitorB" value="false"/>
+          <midi type="Note" parameter="0xc" channel="0x3" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Mixer).CueMonitorB" value="true"/>
+          <midi type="Note" parameter="0xc" channel="0x3" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Fx)[0x1].OnOff" value="false"/>
+          <midi type="Note" parameter="0x20" channel="0x7" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Fx)[0x1].OnOff" value="true"/>
+          <midi type="Note" parameter="0x20" channel="0x7" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Fx)[0x2].OnOff" value="false"/>
+          <midi type="Note" parameter="0x22" channel="0x8" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Fx)[0x2].OnOff" value="true"/>
+          <midi type="Note" parameter="0x22" channel="0x8" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Fx)[0x5].OnOff" value="false"/>
+          <midi type="Note" parameter="0x21" channel="0x7" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Fx)[0x5].OnOff" value="true"/>
+          <midi type="Note" parameter="0x21" channel="0x7" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Fx)[0x6].OnOff" value="false"/>
+          <midi type="Note" parameter="0x21" channel="0x8" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Fx)[0x6].OnOff" value="true"/>
+          <midi type="Note" parameter="0x21" channel="0x8" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Fx)[0x9].OnOff" value="false"/>
+          <midi type="Note" parameter="0x22" channel="0x7" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Fx)[0x9].OnOff" value="true"/>
+          <midi type="Note" parameter="0x22" channel="0x7" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Fx)[0xa].OnOff" value="false"/>
+          <midi type="Note" parameter="0x20" channel="0x8" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Fx)[0xa].OnOff" value="true"/>
+          <midi type="Note" parameter="0x20" channel="0x8" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Sampler)[0x1].Pad1Control" value="false"/>
+          <midi type="Note" parameter="0x30" channel="0x7" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Sampler)[0x1].Pad1Control" value="true"/>
+          <midi type="Note" parameter="0x30" channel="0x7" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Sampler)[0x1].Pad2Control" value="false"/>
+          <midi type="Note" parameter="0x31" channel="0x7" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Sampler)[0x1].Pad2Control" value="true"/>
+          <midi type="Note" parameter="0x31" channel="0x7" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Sampler)[0x1].Pad3Control" value="false"/>
+          <midi type="Note" parameter="0x32" channel="0x7" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Sampler)[0x1].Pad3Control" value="true"/>
+          <midi type="Note" parameter="0x32" channel="0x7" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Sampler)[0x1].Pad4Control" value="false"/>
+          <midi type="Note" parameter="0x33" channel="0x7" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Sampler)[0x1].Pad4Control" value="true"/>
+          <midi type="Note" parameter="0x33" channel="0x7" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Sampler)[0x2].Pad1Control" value="false"/>
+          <midi type="Note" parameter="0x30" channel="0x8" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Sampler)[0x2].Pad1Control" value="true"/>
+          <midi type="Note" parameter="0x30" channel="0x8" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Sampler)[0x2].Pad2Control" value="false"/>
+          <midi type="Note" parameter="0x31" channel="0x8" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Sampler)[0x2].Pad2Control" value="true"/>
+          <midi type="Note" parameter="0x31" channel="0x8" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Sampler)[0x2].Pad3Control" value="false"/>
+          <midi type="Note" parameter="0x32" channel="0x8" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Sampler)[0x2].Pad3Control" value="true"/>
+          <midi type="Note" parameter="0x32" channel="0x8" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Sampler)[0x2].Pad4Control" value="false"/>
+          <midi type="Note" parameter="0x33" channel="0x8" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Sampler)[0x2].Pad4Control" value="true"/>
+          <midi type="Note" parameter="0x33" channel="0x8" value="127"/>
+        </mapping>
+      </output-mappings>
+    </mappings>
+  </controller>
+</main>
