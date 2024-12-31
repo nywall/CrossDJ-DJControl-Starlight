@@ -27,7 +27,7 @@
           </preset>
         </mapping>
 
-
+        <!-- PLAY_DA -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x7" channel="0x2" value="127"/>
@@ -41,6 +41,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- CUE_DA -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x6" channel="0x2" value="127"/>
@@ -54,6 +55,37 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- SH_CUE_DA -->
+        <!-- Controls both decks Pitch Range -->
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x6" channel="0x5" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x1].PitchRange"/>
+          </controls>
+          <preset name="Inc.-Dec. Integer Trigger">
+            <parameters>
+              <parameter object="action-0" key="integer" value="1"/>
+            </parameters>
+          </preset>
+        </mapping>
+         <mapping>
+          <events>
+            <midi type="Note" parameter="0x6" channel="0x5" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x2].PitchRange"/>
+          </controls>
+          <preset name="Inc.-Dec. Integer Trigger">
+            <parameters>
+              <parameter object="action-0" key="integer" value="1"/>
+            </parameters>
+          </preset>
+        </mapping>
+
+
+        <!-- SYNC_DA -->  
         <mapping>
           <events>
             <midi type="Note" parameter="0x5" channel="0x2" value="127"/>
@@ -67,6 +99,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- PLAY_DB -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x7" channel="0x3" value="127"/>
@@ -80,6 +113,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- CUE_DB -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x6" channel="0x3" value="127"/>
@@ -93,6 +127,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- SYNC_DB -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x5" channel="0x3" value="127"/>
@@ -106,6 +141,10 @@
             </parameters>
           </preset>
         </mapping>
+
+
+
+        <!-- TEMPO_DB -->
         <mapping>
           <events>
             <midi type="CC" parameter="0x28" channel="0x3" value="77"/>
@@ -122,6 +161,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- TEMPO_DA -->
         <mapping>
           <events>
             <midi type="CC" parameter="0x8" channel="0x2" value="68"/>
@@ -138,6 +178,8 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- Begin Hot Cue Deck 1 -->
+        <!-- CUE_KP1_DA -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x0" channel="0x7" value="127"/>
@@ -151,6 +193,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- CUE_KP2_DA -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x1" channel="0x7" value="127"/>
@@ -164,6 +207,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- CUE_KP3_DA -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x2" channel="0x7" value="127"/>
@@ -177,6 +221,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- CUE_KP4_DA -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x3" channel="0x7" value="127"/>
@@ -190,6 +235,83 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- End Hot Cue Deck 1 -->
+        
+        <!-- Start Clear Cue Shif+Pad Deck1 -->  
+        <!-- SH_CUE_KP1_DA -->
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x8" channel="0x7" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x1].Locator1Clear"/>
+          </controls>
+          <preset name="Trigger Button">
+            <parameters>
+              <parameter object="metronom" key="Repeat Acceleration" value="0.1"/>
+              <parameter object="metronom" key="Repeat Time" value="0"/>
+              <parameter object="metronom" key="Start Time" value="500"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <!-- SH_CUE_KP2_DA -->
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x9" channel="0x7" value="127" />
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x1].Locator2Clear"/>
+          </controls>
+          <preset name="Trigger Button">
+            <parameters>
+              <parameter object="metronom" key="Repeat Acceleration" value="0.1"/>
+              <parameter object="metronom" key="Repeat Time" value="0"/>
+              <parameter object="metronom" key="Start Time" value="500"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <!-- SH_CUE_KP3_DA -->
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0xa" channel="0x7" value="127" />
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x1].Locator3Clear"/>
+          </controls>
+          <preset name="Trigger Button">
+            <parameters>
+              <parameter object="metronom" key="Repeat Acceleration" value="0.1"/>
+              <parameter object="metronom" key="Repeat Time" value="0"/>
+              <parameter object="metronom" key="Start Time" value="500"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <!-- SH_CUE_KP4_DA -->
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0xb" channel="0x7" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x1].Locator4Clear"/>
+          </controls>
+          <preset name="Trigger Button">
+            <parameters>
+              <parameter object="metronom" key="Repeat Acceleration" value="0.1"/>
+              <parameter object="metronom" key="Repeat Time" value="0"/>
+              <parameter object="metronom" key="Start Time" value="500"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <!-- End Clear Cue Shif+Pad -->
+        
+
+
+        
+        
+        
+        
+        <!-- Begin Hot Cue Deck 2 -->
+        <!-- CUE_KP2_DB -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x0" channel="0x8" value="127"/>
@@ -203,6 +325,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- CUE_KP2_DB -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x1" channel="0x8" value="127"/>
@@ -216,6 +339,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- CUE_KP3_DB -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x2" channel="0x8" value="127"/>
@@ -229,6 +353,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- CUE_KP4_DB -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x3" channel="0x8" value="127"/>
@@ -242,12 +367,87 @@
             </parameters>
           </preset>
         </mapping>
+
+      <!--End Hot Cue Deck 2 -->
+        
+
+
+      <!-- Start Clear Cue Shif+Pad DeckB -->  
+        <!-- SH_CUE_KP1_DB -->
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x8" channel="0x8" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x1].Locator1Clear"/>
+          </controls>
+          <preset name="Trigger Button">
+            <parameters>
+              <parameter object="metronom" key="Repeat Acceleration" value="0.1"/>
+              <parameter object="metronom" key="Repeat Time" value="0"/>
+              <parameter object="metronom" key="Start Time" value="500"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <!-- SH_CUE_KP2_DB -->
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0x9" channel="0x8" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x1].Locator2Clear"/>
+          </controls>
+          <preset name="Trigger Button">
+            <parameters>
+              <parameter object="metronom" key="Repeat Acceleration" value="0.1"/>
+              <parameter object="metronom" key="Repeat Time" value="0"/>
+              <parameter object="metronom" key="Start Time" value="500"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <!-- SH_CUE_KP3_DB -->
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0xa" channel="0x8" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x1].Locator3Clear"/>
+          </controls>
+          <preset name="Trigger Button">
+            <parameters>
+              <parameter object="metronom" key="Repeat Acceleration" value="0.1"/>
+              <parameter object="metronom" key="Repeat Time" value="0"/>
+              <parameter object="metronom" key="Start Time" value="500"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <!-- SH_CUE_KP4_DB -->
+        <mapping>
+          <events>
+            <midi type="Note" parameter="0xb" channel="0x8" value="127" />
+          </events>
+          <controls>
+            <control alias="fam(Player)[0x1].Locator4Clear"/>
+          </controls>
+          <preset name="Trigger Button">
+            <parameters>
+              <parameter object="metronom" key="Repeat Acceleration" value="0.1"/>
+              <parameter object="metronom" key="Repeat Time" value="0"/>
+              <parameter object="metronom" key="Start Time" value="500"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <!-- End Clear Cue Shif+Pad -->  
+
+
+        <!-- Loop -->        
+        <!-- LOOP_KP1_DA -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x12" channel="0x7" value="127"/>
           </events>
           <controls>
-            <control alias="fam(Player)[0x1].LoopIn"/>
+             <control alias="fam(Player)[0x1].AutoLoopTrigger"/>
           </controls>
           <preset name="Trigger Button">
             <parameters>
@@ -257,12 +457,13 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- LOOP_KP2_DA -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x13" channel="0x7" value="127"/>
           </events>
           <controls>
-            <control alias="fam(Player)[0x1].LoopOut"/>
+             <control alias="fam(Player)[0x1].AutoLoopTrigger"/>
           </controls>
           <preset name="Trigger Button">
             <parameters>
@@ -272,88 +473,114 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- LOOP_KP3_DA -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x10" channel="0x7" value="127"/>
           </events>
           <controls>
-            <control alias="fam(Player)[0x1].AutoLoopOnOff"/>
+            <control alias="fam(Player)[0x1].AutoLoopSelect"/>
           </controls>
-          <preset name="Toggler Button">
+          <preset name="Inc.-Dec. Button">
             <parameters>
-              <parameter object="invert" key="on" value="off"/>
+              <parameter object="action-0" key="integer" value="-1"/>
+              <parameter object="dispatch" key="interpretCCasNote" value="off"/>
+              <parameter object="metronom" key="Repeat Acceleration" value="0.1"/>
+              <parameter object="metronom" key="Repeat Time" value="0"/>
+              <parameter object="metronom" key="Start Time" value="500"/>
             </parameters>
           </preset>
         </mapping>
+        <!-- LOOP_KP4_DA -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x11" channel="0x7" value="127"/>
           </events>
           <controls>
-            <control alias="fam(Player)[0x1].LoopOnOff"/>
+            <control alias="fam(Player)[0x1].AutoLoopSelect"/>
           </controls>
-          <preset name="Toggler Button">
+          <preset name="Inc.-Dec. Button">
             <parameters>
-              <parameter object="invert" key="on" value="off"/>
+              <parameter object="action-0" key="integer" value="1"/>
+              <parameter object="dispatch" key="interpretCCasNote" value="off"/>
+              <parameter object="metronom" key="Repeat Acceleration" value="0.1"/>
+              <parameter object="metronom" key="Repeat Time" value="0"/>
+              <parameter object="metronom" key="Start Time" value="500"/>
             </parameters>
           </preset>
         </mapping>
+        <!-- END LOOP DA -->
+        <!-- BEGIN LOOP DB -->
+        <!-- LOOP_KP1_DB -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x10" channel="0x8" value="127"/>
           </events>
           <controls>
-            <control alias="fam(Player)[0x2].AutoLoopOnOff"/>
+             <control alias="fam(Player)[0x2].AutoLoopTrigger"/>
           </controls>
-          <preset name="Toggler Button">
+          <preset name="Trigger Button">
             <parameters>
-              <parameter object="invert" key="on" value="off"/>
+              <parameter object="metronom" key="Repeat Acceleration" value="0.1"/>
+              <parameter object="metronom" key="Repeat Time" value="0"/>
+              <parameter object="metronom" key="Start Time" value="500"/>
             </parameters>
           </preset>
         </mapping>
+        <!-- LOOP_KP2_DB -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x11" channel="0x8" value="127"/>
           </events>
-          <controls>
-            <control alias="fam(Player)[0x2].LoopOnOff"/>
+         <controls>
+             <control alias="fam(Player)[0x2].AutoLoopTrigger"/>
           </controls>
-          <preset name="Toggler Button">
+          <preset name="Trigger Button">
             <parameters>
-              <parameter object="invert" key="on" value="off"/>
+              <parameter object="metronom" key="Repeat Acceleration" value="0.1"/>
+              <parameter object="metronom" key="Repeat Time" value="0"/>
+              <parameter object="metronom" key="Start Time" value="500"/>
             </parameters>
           </preset>
         </mapping>
+        <!-- LOOP_KP3_DB -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x12" channel="0x8" value="127"/>
           </events>
           <controls>
-            <control alias="fam(Player)[0x2].LoopIn"/>
+            <control alias="fam(Player)[0x2].AutoLoopSelect"/>
           </controls>
-          <preset name="Trigger Button">
+          <preset name="Inc.-Dec. Button">
             <parameters>
+              <parameter object="action-0" key="integer" value="-1"/>
+              <parameter object="dispatch" key="interpretCCasNote" value="off"/>
               <parameter object="metronom" key="Repeat Acceleration" value="0.1"/>
               <parameter object="metronom" key="Repeat Time" value="0"/>
               <parameter object="metronom" key="Start Time" value="500"/>
             </parameters>
           </preset>
         </mapping>
+        <!-- LOOP_KP4_DB -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x13" channel="0x8" value="127"/>
           </events>
           <controls>
-            <control alias="fam(Player)[0x2].LoopOut"/>
+            <control alias="fam(Player)[0x2].AutoLoopSelect"/>
           </controls>
-          <preset name="Trigger Button">
+          <preset name="Inc.-Dec. Button">
             <parameters>
+              <parameter object="action-0" key="integer" value="1"/>
+              <parameter object="dispatch" key="interpretCCasNote" value="off"/>
               <parameter object="metronom" key="Repeat Acceleration" value="0.1"/>
               <parameter object="metronom" key="Repeat Time" value="0"/>
               <parameter object="metronom" key="Start Time" value="500"/>
             </parameters>
           </preset>
         </mapping>
+        <!-- END LOOP DB -->
+        <!-- BASS_DA -->
         <mapping>
           <events>
             <midi type="CC" parameter="0x2" channel="0x2" value="77"/>
@@ -370,6 +597,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- BASS_DB -->
         <mapping>
           <events>
             <midi type="CC" parameter="0x2" channel="0x3" value="105"/>
@@ -386,6 +614,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- VOL_DA --> 
         <mapping>
           <events>
             <midi type="CC" parameter="0x0" channel="0x2" value="58"/>
@@ -402,6 +631,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- VOL_DB -->
         <mapping>
           <events>
             <midi type="CC" parameter="0x0" channel="0x3" value="60"/>
@@ -418,6 +648,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- VOL_MASTER -->
         <mapping>
           <events>
             <midi type="CC" parameter="0x3" channel="0x1" value="22"/>
@@ -434,6 +665,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- VOL_HEADPHONES -->
         <mapping>
           <events>
             <midi type="CC" parameter="0x4" channel="0x1" value="123"/>
@@ -450,6 +682,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- FILTER DA -->
         <mapping>
           <events>
             <midi type="CC" parameter="0x1" channel="0x2" value="68"/>
@@ -466,6 +699,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- FILTER DB -->
         <mapping>
           <events>
             <midi type="CC" parameter="0x1" channel="0x3" value="3"/>
@@ -482,6 +716,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- SAM_KP1 DA -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x30" channel="0x7" value="127"/>
@@ -495,6 +730,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- SAM_KP2 DA -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x31" channel="0x7" value="127"/>
@@ -508,6 +744,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- SAM_KP3 DA -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x32" channel="0x7" value="127"/>
@@ -521,6 +758,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- SAM_KP4 DA -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x33" channel="0x7" value="127"/>
@@ -534,6 +772,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- SAM_KP1 DB -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x30" channel="0x8" value="127"/>
@@ -547,6 +786,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- SAM_KP2 DB -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x31" channel="0x8" value="127"/>
@@ -560,6 +800,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- SAM_KP3 DB -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x32" channel="0x8" value="127"/>
@@ -573,6 +814,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- SAM_KP4 DB -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x33" channel="0x8" value="127"/>
@@ -586,6 +828,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- FX_KP1 DA -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x20" channel="0x7" value="127"/>
@@ -599,6 +842,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- FX_KP2 DA -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x21" channel="0x7" value="127"/>
@@ -612,6 +856,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- FX_KP3 DA -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x22" channel="0x7" value="127"/>
@@ -625,6 +870,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- FX_KP1 DB -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x20" channel="0x8" value="127"/>
@@ -638,6 +884,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- FX_KP2 DB -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x21" channel="0x8" value="127"/>
@@ -651,6 +898,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- FX_KP3 DB -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x22" channel="0x8" value="127"/>
@@ -664,6 +912,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- SH -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x3" channel="0x1" value="0"/>
@@ -677,6 +926,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- HEAD_DA -->
         <mapping>
           <events>
             <midi type="Note" parameter="0xc" channel="0x2" value="127"/>
@@ -690,7 +940,8 @@
             </parameters>
           </preset>
         </mapping>
-        <mapping>
+        <!-- HEAD_DB -->
+          <mapping>
           <events>
             <midi type="Note" parameter="0xc" channel="0x3" value="127"/>
           </events>
@@ -703,6 +954,7 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- VINYL -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x3" channel="0x3" value="127"/>
@@ -729,6 +981,8 @@
             </parameters>
           </preset>
         </mapping>
+
+        <!-- Jog wheels -->
         <mapping>
           <events>
             <midi type="Note" parameter="0x8" channel="0x3" value="127"/>
@@ -812,6 +1066,9 @@
           </preset>
         </mapping>
       </input-mappings>
+
+
+
       <output-mappings>
         <device-event name="Shutdown">
           <midi type="Note" parameter="0x5" channel="0x2" value="0"/>
