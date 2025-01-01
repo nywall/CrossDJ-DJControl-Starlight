@@ -829,90 +829,155 @@
             </parameters>
           </preset>
         </mapping>
+        <!-- FX Numbers on Android -->
+        <!--  1 Low-Pass-->
+        <!--  2 Hi-Pass-->
+        <!--  3 Delay-->
+        <!--  4 Echo-->
+        <!--  5 Phaser -->
+        <!--  6 X-Phaser -->
+        <!--  7 Flanger -->
+        <!--  8 Jet -->
+        <!--  9 Cut -->  
+        <!-- 10 Chopper -->
+        <!-- 11 Crush -->
+        <!-- 12 Bliss -->
+        <!-- 13 Bi-Filter-->
+        <!-- 14 Brake-->
+        <!-- 15 Reverb -->
+        <!-- 16 Roll -->
+        <!-- 17 Dusty LP -->        
+        <!-- 18 Reverb default -->
+        <!-- 19 Band Crusher -->
+        <!-- 20 Analog LP -->
+        <!-- 21 Classic Chorus -->
+        <!-- 22 Vintage Chorus -->
+        <!-- 23 Haunted Flanger -->
+        <!-- 24 Distortion -->
+        <!-- 25 Phaser 2 -->
+        <!-- 26 Dub Delay -->
+         
         <!-- FX_KP1 DA -->
-        <mapping>
+        <mapping name="FX1 DA Reverb">
           <events>
             <midi type="Note" parameter="0x20" channel="0x7" value="127"/>
           </events>
           <controls>
-            <control alias="fam(Fx)[0x1].OnOff"/>
+            <control alias="fam(Fx)[0x1].SelectAndToggle"/>
           </controls>
-          <preset name="Toggler Button">
+          <preset name="Direct Integer Button">
             <parameters>
-              <parameter object="invert" key="on" value="off"/>
+              <parameter object="action-0" key="integer" value="15"/>
+              <parameter object="dispatch" key="interpretCCasNote" value="off"/>
             </parameters>
           </preset>
         </mapping>
         <!-- FX_KP2 DA -->
-        <mapping>
+        <mapping name="FX2 DA Echo">
           <events>
             <midi type="Note" parameter="0x21" channel="0x7" value="127"/>
           </events>
           <controls>
-            <control alias="fam(Fx)[0x5].OnOff"/>
+            <control alias="fam(Fx)[0x1].SelectAndToggle"/>
           </controls>
-          <preset name="Toggler Button">
+          <preset name="Direct Integer Button">
             <parameters>
-              <parameter object="invert" key="on" value="off"/>
+              <parameter object="action-0" key="integer" value="4"/>
+              <parameter object="dispatch" key="interpretCCasNote" value="off"/>
             </parameters>
           </preset>
         </mapping>
         <!-- FX_KP3 DA -->
-        <mapping>
+        <mapping name="FX3 DA X-Phaser">
           <events>
             <midi type="Note" parameter="0x22" channel="0x7" value="127"/>
           </events>
           <controls>
-            <control alias="fam(Fx)[0x9].OnOff"/>
+            <control alias="fam(Fx)[0x1].SelectAndToggle"/>
           </controls>
-          <preset name="Toggler Button">
+          <preset name="Direct Integer Button">
             <parameters>
-              <parameter object="invert" key="on" value="off"/>
+              <parameter object="action-0" key="integer" value="6"/>
+              <parameter object="dispatch" key="interpretCCasNote" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <!-- FX_KP4 DA -->
+        <mapping name="FX4 DA Brake">
+          <events>
+            <midi type="Note" parameter="0x23" channel="0x7" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Fx)[0x1].SelectAndToggle"/>
+          </controls>
+          <preset name="Direct Integer Button">
+            <parameters>
+              <parameter object="action-0" key="integer" value="14"/>
+              <parameter object="dispatch" key="interpretCCasNote" value="off"/>
             </parameters>
           </preset>
         </mapping>
         <!-- FX_KP1 DB -->
-        <mapping>
+        <mapping name="FX1 DB reverb">
           <events>
             <midi type="Note" parameter="0x20" channel="0x8" value="127"/>
           </events>
           <controls>
-            <control alias="fam(Fx)[0xa].OnOff"/>
+            <control alias="fam(Fx)[0x2].SelectAndToggle"/>
           </controls>
-          <preset name="Toggler Button">
+          <preset name="Direct Integer Button">
             <parameters>
-              <parameter object="invert" key="on" value="off"/>
+              <parameter object="action-0" key="integer" value="15"/>
+              <parameter object="dispatch" key="interpretCCasNote" value="off"/>
             </parameters>
           </preset>
         </mapping>
         <!-- FX_KP2 DB -->
-        <mapping>
+        <mapping name="FX2 DB Echo">
           <events>
             <midi type="Note" parameter="0x21" channel="0x8" value="127"/>
           </events>
           <controls>
-            <control alias="fam(Fx)[0x6].OnOff"/>
+            <control alias="fam(Fx)[0x2].SelectAndToggle"/>
           </controls>
-          <preset name="Toggler Button">
+          <preset name="Direct Integer Button">
             <parameters>
-              <parameter object="invert" key="on" value="off"/>
+              <parameter object="action-0" key="integer" value="4"/>
+              <parameter object="dispatch" key="interpretCCasNote" value="off"/>
             </parameters>
           </preset>
         </mapping>
         <!-- FX_KP3 DB -->
-        <mapping>
+        <mapping name="FX3 DB X-Phaser">
           <events>
             <midi type="Note" parameter="0x22" channel="0x8" value="127"/>
           </events>
           <controls>
-            <control alias="fam(Fx)[0x2].OnOff"/>
+            <control alias="fam(Fx)[0x2].SelectAndToggle"/>
           </controls>
-          <preset name="Toggler Button">
+          <preset name="Direct Integer Button">
             <parameters>
-              <parameter object="invert" key="on" value="off"/>
+              <parameter object="action-0" key="integer" value="6"/>
+              <parameter object="dispatch" key="interpretCCasNote" value="off"/>
             </parameters>
           </preset>
         </mapping>
+        <!-- FX_KP4 DB -->
+        <mapping name="FX4 DB Brake">
+          <events>
+            <midi type="Note" parameter="0x23" channel="0x8" value="127"/>
+          </events>
+          <controls>
+            <control alias="fam(Fx)[0x2].SelectAndToggle"/>
+          </controls>
+          <preset name="Direct Integer Button">
+            <parameters>
+              <parameter object="action-0" key="integer" value="14"/>
+              <parameter object="dispatch" key="interpretCCasNote" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        
         <!-- SH -->
         <mapping>
           <events>
@@ -1165,6 +1230,16 @@
           <midi type="CC" parameter="0x2" channel="0x3" value="0"/>
           <midi type="CC" parameter="0x28" channel="0x3" value="0"/>
         </device-event>
+         <mapping>
+          <control alias="fam(Player)[@].BeatFlash" value="false"/>
+          <midi type="Note" parameter="0x23" channel="0x2" value="0"/>
+          <midi type="Note" parameter="0x23" channel="0x3" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Player)[@].BeatFlash" value="true"/>
+          <midi type="Note" parameter="0x23" channel="0x2" value="127"/>
+          <midi type="Note" parameter="0x23" channel="0x3" value="0"/>
+        </mapping>
         <mapping>
           <control alias="fam(Player)[0x1].PlayPause" value="false"/>
           <midi type="Note" parameter="0x7" channel="0x2" value="0"/>
@@ -1389,54 +1464,86 @@
           <control alias="fam(Mixer).CueMonitorB" value="true"/>
           <midi type="Note" parameter="0xc" channel="0x3" value="127"/>
         </mapping>
+        <!-- FX Output -->
         <mapping>
-          <control alias="fam(Fx)[0x1].OnOff" value="false"/>
+          <control alias="fam(Fx)[0x1].SelectAndToggle" value="0"/>
           <midi type="Note" parameter="0x20" channel="0x7" value="0"/>
-        </mapping>
-        <mapping>
-          <control alias="fam(Fx)[0x1].OnOff" value="true"/>
-          <midi type="Note" parameter="0x20" channel="0x7" value="127"/>
-        </mapping>
-        <mapping>
-          <control alias="fam(Fx)[0x2].OnOff" value="false"/>
-          <midi type="Note" parameter="0x22" channel="0x8" value="0"/>
-        </mapping>
-        <mapping>
-          <control alias="fam(Fx)[0x2].OnOff" value="true"/>
-          <midi type="Note" parameter="0x22" channel="0x8" value="127"/>
-        </mapping>
-        <mapping>
-          <control alias="fam(Fx)[0x5].OnOff" value="false"/>
           <midi type="Note" parameter="0x21" channel="0x7" value="0"/>
-        </mapping>
-        <mapping>
-          <control alias="fam(Fx)[0x5].OnOff" value="true"/>
-          <midi type="Note" parameter="0x21" channel="0x7" value="127"/>
-        </mapping>
-        <mapping>
-          <control alias="fam(Fx)[0x6].OnOff" value="false"/>
-          <midi type="Note" parameter="0x21" channel="0x8" value="0"/>
-        </mapping>
-        <mapping>
-          <control alias="fam(Fx)[0x6].OnOff" value="true"/>
-          <midi type="Note" parameter="0x21" channel="0x8" value="127"/>
-        </mapping>
-        <mapping>
-          <control alias="fam(Fx)[0x9].OnOff" value="false"/>
           <midi type="Note" parameter="0x22" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x23" channel="0x7" value="0"/>
         </mapping>
         <mapping>
-          <control alias="fam(Fx)[0x9].OnOff" value="true"/>
+          <control alias="fam(Fx)[0x1].SelectAndToggle" value="15"/>
+          <midi type="Note" parameter="0x20" channel="0x7" value="127"/>
+          <midi type="Note" parameter="0x21" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x22" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x23" channel="0x7" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Fx)[0x1].SelectAndToggle" value="4"/>
+          <midi type="Note" parameter="0x20" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x21" channel="0x7" value="127"/>
+          <midi type="Note" parameter="0x22" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x23" channel="0x7" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Fx)[0x1].SelectAndToggle" value="6"/>
+          <midi type="Note" parameter="0x20" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x21" channel="0x7" value="0"/>
           <midi type="Note" parameter="0x22" channel="0x7" value="127"/>
+          <midi type="Note" parameter="0x23" channel="0x7" value="0"/>
         </mapping>
         <mapping>
-          <control alias="fam(Fx)[0xa].OnOff" value="false"/>
+          <control alias="fam(Fx)[0x1].SelectAndToggle" value="14"/>
+          <midi type="Note" parameter="0x20" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x21" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x22" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x23" channel="0x7" value="127"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Fx)[0x2].Amount" value="0%"/>
+          <midi type="CC" parameter="0x3f" channel="0x1" value="65"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Fx)[0x2].Depth" value="0%"/>
+          <midi type="CC" parameter="0x40" channel="0x1" value="77"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Fx)[0x2].SelectAndToggle" value="0"/>
           <midi type="Note" parameter="0x20" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x21" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x22" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x23" channel="0x8" value="0"/>
         </mapping>
         <mapping>
-          <control alias="fam(Fx)[0xa].OnOff" value="true"/>
+          <control alias="fam(Fx)[0x2].SelectAndToggle" value="15"/>
           <midi type="Note" parameter="0x20" channel="0x8" value="127"/>
+          <midi type="Note" parameter="0x21" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x22" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x23" channel="0x8" value="0"/>
         </mapping>
+        <mapping>
+          <control alias="fam(Fx)[0x2].SelectAndToggle" value="4"/>
+          <midi type="Note" parameter="0x20" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x21" channel="0x8" value="127"/>
+          <midi type="Note" parameter="0x22" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x23" channel="0x8" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Fx)[0x2].SelectAndToggle" value="6"/>
+          <midi type="Note" parameter="0x20" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x21" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x22" channel="0x8" value="127"/>
+          <midi type="Note" parameter="0x23" channel="0x8" value="0"/>
+        </mapping>
+        <mapping>
+          <control alias="fam(Fx)[0x2].SelectAndToggle" value="14"/>
+          <midi type="Note" parameter="0x20" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x21" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x22" channel="0x8" value="0"/>
+          <midi type="Note" parameter="0x23" channel="0x8" value="127"/>
+        </mapping>        
+        
         <mapping>
           <control alias="fam(Sampler)[0x1].Pad1Control" value="false"/>
           <midi type="Note" parameter="0x30" channel="0x7" value="0"/>
