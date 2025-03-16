@@ -751,7 +751,7 @@
               <parameter object="jog" key="Ms Per Turn" value="1800" />
               <parameter object="jog" key="Pitch Bend when No Touch" value="off" />
               <parameter object="jog" key="Sensitivity" value="1" />
-              <parameter object="jog" key="Ticks Per Turn" value="300" />
+              <parameter object="jog" key="Ticks Per Turn" value="127" />
               <parameter object="stop timer" key="Repeat Time" value="100" />
             </parameters>
           </preset>
@@ -776,7 +776,7 @@
               <parameter object="jog" key="Ms Per Turn" value="1800" />
               <parameter object="jog" key="Pitch Bend when No Touch" value="off" />
               <parameter object="jog" key="Sensitivity" value="1" />
-              <parameter object="jog" key="Ticks Per Turn" value="300" />
+              <parameter object="jog" key="Ticks Per Turn" value="127" />
               <parameter object="stop timer" key="Repeat Time" value="100" />
             </parameters>
           </preset>
