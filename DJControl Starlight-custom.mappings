@@ -892,7 +892,7 @@
         <!-- 26 Dub Delay -->
          
         <!-- FX_KP1 DA -->
-        <mapping name="FX1 DA Reverb">
+        <mapping name="FX1 DA Jet">
           <events>
             <midi type="Note" parameter="0x20" channel="0x7" value="127" />
           </events>
@@ -901,13 +901,13 @@
           </controls>
           <preset name="Direct Integer Button">
             <parameters>
-              <parameter object="action-0" key="integer" value="15"/>
+              <parameter object="action-0" key="integer" value="8"/>
               <parameter object="dispatch" key="interpretCCasNote" value="off"/>
             </parameters>
           </preset>
         </mapping>
         <!-- FX_KP2 DA -->
-        <mapping name="FX2 DA Echo">
+        <mapping name="FX2 DA Dub Delay">
           <events>
             <midi type="Note" parameter="0x21" channel="0x7" value="127" />
           </events>
@@ -916,13 +916,13 @@
           </controls>
           <preset name="Direct Integer Button">
             <parameters>
-              <parameter object="action-0" key="integer" value="4"/>
+              <parameter object="action-0" key="integer" value="26"/>
               <parameter object="dispatch" key="interpretCCasNote" value="off"/>
             </parameters>
           </preset>
         </mapping>
         <!-- FX_KP3 DA -->
-        <mapping name="FX3 DA X-Phaser">
+        <mapping name="FX3 DA Cut">
           <events>
             <midi type="Note" parameter="0x22" channel="0x7" value="127" />
           </events>
@@ -931,7 +931,7 @@
           </controls>
           <preset name="Direct Integer Button">
             <parameters>
-              <parameter object="action-0" key="integer" value="6"/>
+              <parameter object="action-0" key="integer" value="9"/>
               <parameter object="dispatch" key="interpretCCasNote" value="off"/>
             </parameters>
           </preset>
@@ -952,7 +952,7 @@
           </preset>
         </mapping>
         <!-- FX_KP1 DB -->
-        <mapping name="FX1 DB reverb">
+        <mapping name="FX1 DB Jet">
           <events>
             <midi type="Note" parameter="0x20" channel="0x8" value="127"/>
           </events>
@@ -961,13 +961,13 @@
           </controls>
           <preset name="Direct Integer Button">
             <parameters>
-              <parameter object="action-0" key="integer" value="15"/>
+              <parameter object="action-0" key="integer" value="8"/>
               <parameter object="dispatch" key="interpretCCasNote" value="off"/>
             </parameters>
           </preset>
         </mapping>
         <!-- FX_KP2 DB -->
-        <mapping name="FX2 DB Echo">
+        <mapping name="FX2 DB Dub Delay">
           <events>
             <midi type="Note" parameter="0x21" channel="0x8" value="127" />
           </events>
@@ -976,13 +976,13 @@
           </controls>
           <preset name="Direct Integer Button">
             <parameters>
-              <parameter object="action-0" key="integer" value="4"/>
+              <parameter object="action-0" key="integer" value="26"/>
               <parameter object="dispatch" key="interpretCCasNote" value="off"/>
             </parameters>
           </preset>
         </mapping>
         <!-- FX_KP3 DB -->
-        <mapping name="FX3 DB X-Phaser">
+        <mapping name="FX3 DB Cut">
           <events>
             <midi type="Note" parameter="0x22" channel="0x8" value="127" />
           </events>
@@ -991,7 +991,7 @@
           </controls>
           <preset name="Direct Integer Button">
             <parameters>
-              <parameter object="action-0" key="integer" value="6"/>
+              <parameter object="action-0" key="integer" value="9"/>
               <parameter object="dispatch" key="interpretCCasNote" value="off"/>
             </parameters>
           </preset>
@@ -1100,7 +1100,7 @@
               <parameter object="jog" key="Backward Value Range" value="127 65"/>
               <parameter object="jog" key="Built-in Period" value="0"/>
               <parameter object="jog" key="Forward Tick Increment Range" value="1 63"/>
-              <parameter object="jog" key="Forward Value Range" value="0 16383"/>
+              <parameter object="jog" key="Forward Value Range" value="0 63"/>
               <parameter object="jog" key="Has Null Value" value="off"/>
               <parameter object="jog" key="Move till Stop" value="on"/>
               <parameter object="jog" key="Ms Per Turn" value="1800"/>
@@ -1127,7 +1127,7 @@
               <parameter object="jog" key="Backward Value Range" value="127 65"/>
               <parameter object="jog" key="Built-in Period" value="0"/>
               <parameter object="jog" key="Forward Tick Increment Range" value="1 63"/>
-              <parameter object="jog" key="Forward Value Range" value="0 16383"/>
+              <parameter object="jog" key="Forward Value Range" value="0 63"/>
               <parameter object="jog" key="Has Null Value" value="off"/>
               <parameter object="jog" key="Move till Stop" value="on"/>
               <parameter object="jog" key="Ms Per Turn" value="1800"/>
@@ -1268,11 +1268,11 @@
         </mapping>
         <mapping>
           <control alias="fam(Player)[0x1].LoopOnOff" value="false"/>
-          <midi type="Note" parameter="0x11" channel="0x7" value="0"/>
+          <midi type="Note" parameter="0x10" channel="0x7" value="0"/>
         </mapping>
         <mapping>
           <control alias="fam(Player)[0x1].LoopOnOff" value="true"/>
-          <midi type="Note" parameter="0x11" channel="0x7" value="127"/>
+          <midi type="Note" parameter="0x10" channel="0x7" value="127"/>
         </mapping>
         <mapping>
           <control alias="fam(Player)[0x1].AutoLoopOnOff" value="false"/>
@@ -1355,11 +1355,11 @@
         </mapping>
         <mapping>
           <control alias="fam(Player)[0x2].LoopOnOff" value="false" />
-          <midi type="Note" parameter="0x11" channel="0x8" value="0" />
+          <midi type="Note" parameter="0x10" channel="0x8" value="0" />
         </mapping>
         <mapping>
           <control alias="fam(Player)[0x2].LoopOnOff" value="true" />
-          <midi type="Note" parameter="0x11" channel="0x8" value="127" />
+          <midi type="Note" parameter="0x10" channel="0x8" value="127" />
         </mapping>
         <mapping>
           <control alias="fam(Player)[0x2].AutoLoopOnOff" value="false" />
@@ -1470,21 +1470,21 @@
           <midi type="Note" parameter="0x23" channel="0x7" value="0"/>
         </mapping>
         <mapping>
-          <control alias="fam(Fx)[0x1].SelectAndToggle" value="15"/>
+          <control alias="fam(Fx)[0x1].SelectAndToggle" value="8"/>
           <midi type="Note" parameter="0x20" channel="0x7" value="127"/>
           <midi type="Note" parameter="0x21" channel="0x7" value="0"/>
           <midi type="Note" parameter="0x22" channel="0x7" value="0"/>
           <midi type="Note" parameter="0x23" channel="0x7" value="0"/>
         </mapping>
         <mapping>
-          <control alias="fam(Fx)[0x1].SelectAndToggle" value="4"/>
+          <control alias="fam(Fx)[0x1].SelectAndToggle" value="26"/>
           <midi type="Note" parameter="0x20" channel="0x7" value="0"/>
           <midi type="Note" parameter="0x21" channel="0x7" value="127"/>
           <midi type="Note" parameter="0x22" channel="0x7" value="0"/>
           <midi type="Note" parameter="0x23" channel="0x7" value="0"/>
         </mapping>
         <mapping>
-          <control alias="fam(Fx)[0x1].SelectAndToggle" value="6"/>
+          <control alias="fam(Fx)[0x1].SelectAndToggle" value="9"/>
           <midi type="Note" parameter="0x20" channel="0x7" value="0"/>
           <midi type="Note" parameter="0x21" channel="0x7" value="0"/>
           <midi type="Note" parameter="0x22" channel="0x7" value="127"/>
@@ -1513,21 +1513,21 @@
           <midi type="Note" parameter="0x23" channel="0x8" value="0"/>
         </mapping>
         <mapping>
-          <control alias="fam(Fx)[0x2].SelectAndToggle" value="15"/>
+          <control alias="fam(Fx)[0x2].SelectAndToggle" value="8"/>
           <midi type="Note" parameter="0x20" channel="0x8" value="127"/>
           <midi type="Note" parameter="0x21" channel="0x8" value="0"/>
           <midi type="Note" parameter="0x22" channel="0x8" value="0"/>
           <midi type="Note" parameter="0x23" channel="0x8" value="0"/>
         </mapping>
         <mapping>
-          <control alias="fam(Fx)[0x2].SelectAndToggle" value="4"/>
+          <control alias="fam(Fx)[0x2].SelectAndToggle" value="26"/>
           <midi type="Note" parameter="0x20" channel="0x8" value="0"/>
           <midi type="Note" parameter="0x21" channel="0x8" value="127"/>
           <midi type="Note" parameter="0x22" channel="0x8" value="0"/>
           <midi type="Note" parameter="0x23" channel="0x8" value="0"/>
         </mapping>
         <mapping>
-          <control alias="fam(Fx)[0x2].SelectAndToggle" value="6"/>
+          <control alias="fam(Fx)[0x2].SelectAndToggle" value="9"/>
           <midi type="Note" parameter="0x20" channel="0x8" value="0"/>
           <midi type="Note" parameter="0x21" channel="0x8" value="0"/>
           <midi type="Note" parameter="0x22" channel="0x8" value="127"/>
