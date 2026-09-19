@@ -382,23 +382,7 @@
             <midi type="Note" parameter="0x8" channel="0x8" value="127"/>
           </events>
           <controls>
-            <control alias="fam(Player)[0x1].Locator1Clear"/>
-          </controls>
-          <preset name="Trigger Button">
-            <parameters>
-              <parameter object="metronom" key="Repeat Acceleration" value="0.1" />
-              <parameter object="metronom" key="Repeat Time" value="0" />
-              <parameter object="metronom" key="Start Time" value="500" />
-            </parameters>
-          </preset>
-        </mapping>
-        <!-- SH_CUE_KP2_DB -->
-        <mapping>
-          <events>
-            <midi type="Note" parameter="0x13" channel="0x7" value="127"/>
-          </events>
-          <controls>
-            <control alias="fam(Player)[0x1].LoopOut"/>
+            <control alias="fam(Player)[0x2].Locator1Clear"/>
           </controls>
           <preset name="Trigger Button">
             <parameters>
@@ -414,7 +398,7 @@
             <midi type="Note" parameter="0xa" channel="0x8" value="127"/>
           </events>
           <controls>
-            <control alias="fam(Player)[0x1].Locator3Clear"/>
+            <control alias="fam(Player)[0x2].Locator3Clear"/>
           </controls>
           <preset name="Trigger Button">
             <parameters>
@@ -430,23 +414,7 @@
             <midi type="Note" parameter="0x9" channel="0x8" value="127"/>
           </events>
           <controls>
-            <control alias="fam(Player)[0x1].Locator2Clear"/>
-          </controls>
-          <preset name="Trigger Button">
-            <parameters>
-              <parameter object="metronom" key="Repeat Acceleration" value="0.1"/>
-              <parameter object="metronom" key="Repeat Time" value="0"/>
-              <parameter object="metronom" key="Start Time" value="500"/>
-            </parameters>
-          </preset>
-        </mapping>
-        <!-- SH_CUE_KP3_DB -->
-        <mapping>
-          <events>
-            <midi type="Note" parameter="0xa" channel="0x8" value="127"/>
-          </events>
-          <controls>
-            <control alias="fam(Player)[0x1].Locator3Clear"/>
+            <control alias="fam(Player)[0x2].Locator2Clear"/>
           </controls>
           <preset name="Trigger Button">
             <parameters>
@@ -462,7 +430,7 @@
             <midi type="Note" parameter="0xb" channel="0x8" value="127" />
           </events>
           <controls>
-            <control alias="fam(Player)[0x1].Locator4Clear"/>
+            <control alias="fam(Player)[0x2].Locator4Clear"/>
           </controls>
           <preset name="Trigger Button">
             <parameters>
@@ -1043,7 +1011,7 @@
         <!-- HEAD_DB -->
           <mapping>
           <events>
-            <midi type="Note" parameter="0xc" channel="0x3"/>
+            <midi type="Note" parameter="0xc" channel="0x3" value="127"/>
           </events>
           <controls>
             <control alias="fam(Mixer).CueMonitorB" />
@@ -1189,7 +1157,7 @@
           <midi type="CC" parameter="0x0" channel="0x3" value="0" />
           <midi type="CC" parameter="0x1" channel="0x3" value="0" />
           <midi type="CC" parameter="0x2" channel="0x3" value="0" />
-          <midi type="CC" parameter="0x28" channel="0x3" value="0" />
+          <midi type="CC" parameter="0x8" channel="0x3" value="0" />
         </device-event>
         <device-event name="Startup">
           <midi type="Note" parameter="0x5" channel="0x2" value="0" />
@@ -1236,7 +1204,7 @@
           <midi type="CC" parameter="0x0" channel="0x3" value="0" />
           <midi type="CC" parameter="0x1" channel="0x3" value="0" />
           <midi type="CC" parameter="0x2" channel="0x3" value="0" />
-          <midi type="CC" parameter="0x28" channel="0x3" value="0" />
+          <midi type="CC" parameter="0x8" channel="0x3" value="0" />
         </device-event>
          <mapping>
           <control alias="fam(Player)[@].BeatFlash" value="false"/>
@@ -1379,7 +1347,7 @@
         </mapping>
         <mapping>
           <control alias="fam(Player)[0x2].PitchValue" value="0%" />
-          <midi type="CC" parameter="0x28" channel="0x3" value="77" />
+          <midi type="CC" parameter="0x8" channel="0x3" value="77" />
         </mapping>
         <mapping>
           <control alias="fam(Player)[0x2].Locator1Control" value="false" />
@@ -1541,6 +1509,22 @@
           <midi type="Note" parameter="0x23" channel="0x8" value="127"/>
         </mapping>        
         
+        <mapping>
+          <control alias="fam(Sampler)[0x1].Pad1Control" value="false" />
+          <midi type="Note" parameter="0x30" channel="0x7" value="0" />
+        </mapping>
+        <mapping>
+          <control alias="fam(Sampler)[0x1].Pad1Control" value="true" />
+          <midi type="Note" parameter="0x30" channel="0x7" value="127" />
+        </mapping>
+        <mapping>
+          <control alias="fam(Sampler)[0x1].Pad2Control" value="false" />
+          <midi type="Note" parameter="0x31" channel="0x7" value="0" />
+        </mapping>
+        <mapping>
+          <control alias="fam(Sampler)[0x1].Pad2Control" value="true" />
+          <midi type="Note" parameter="0x31" channel="0x7" value="127" />
+        </mapping>
         <mapping>
           <control alias="fam(Sampler)[0x1].Pad3Control" value="false" />
           <midi type="Note" parameter="0x32" channel="0x7" value="0" />
